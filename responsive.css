@@ -1,0 +1,139 @@
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    .nav {
+      padding: 3.5vw 5vw;
+    }
+    
+    .nav a {
+      font-size: 1.2vw;
+    }
+    
+    .hero {
+      flex-direction: column;
+      padding: 0 5vw;
+      margin-top: 5vw;
+    }
+    
+    .hleft, .hcenter, .hright {
+      width: 100%;
+      margin-bottom: 5vw;
+    }
+    
+    .headings {
+      position: static;
+      margin-bottom: 2vw;
+    }
+    
+    .headings h1 {
+      font-size: 8vw;
+    }
+    
+    .hcenter p {
+      width: 100%;
+      font-size: 2vw;
+    }
+    
+    .motive {
+      flex-direction: column;
+      padding: 9vw 5vw;
+    }
+    
+    .motive p {
+      width: 100%;
+      text-align: left;
+      font-size: 2.5vw;
+      margin-top: 2vw;
+    }
+    
+    .pictures {
+      flex-direction: column;
+      padding: 3vw 5vw;
+    }
+    
+    .fstpic, .secpic {
+      width: 100%;
+      height: auto;
+      margin-bottom: 5vw;
+    }
+    
+    .fstpic h1, .secpic h1 {
+      font-size: 4vw;
+    }
+    
+    .fstpic p, .secpic p {
+      font-size: 2vw;
+    }
+    
+    .banner {
+      flex-direction: column;
+    }
+    
+    .banner .banimg {
+      width: 100%;
+      height: 50vh;
+    }
+    
+    .bantext {
+      padding: 5vw;
+    }
+    
+    .bantext h1 {
+      font-size: 5vw;
+    }
+    
+    .bantext p {
+      width: 100%;
+      font-size: 2vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav .navleft, .nav .navright {
+      display: none;
+    }
+    
+    .nav::after {
+      content: '☰';
+      font-size: 6vw;
+    }
+    
+    .headings h1 {
+      font-size: 10vw;
+    }
+    
+    .hcenter p {
+      font-size: 3vw;
+    }
+    
+    .motive p {
+      font-size: 3.5vw;
+    }
+    
+    .fstpic h1, .secpic h1 {
+      font-size: 6vw;
+    }
+    
+    .fstpic p, .secpic p {
+      font-size: 3vw;
+    }
+    
+    .bantext h1 {
+      font-size: 7vw;
+    }
+    
+    .bantext p {
+      font-size: 3vw;
+    }
+    
+    .lvideo .top-text {
+      width: 80%;
+    }
+    
+    .top-text h1 {
+      font-size: 4vw;
+    }
+    
+    .top-text button {
+      font-size: 2vw;
+    }
+  }
